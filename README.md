@@ -1,5 +1,6 @@
 # Unforgeability in SGD
-We provide the code to reproduce the experiments in the paper titled "Unforgeability in Stochastic Gradient Descent".
+
+This repository is an implementation of the procedure and experiments in the CCS'23 paper [Unforgeability in Stochastic Gradient Descent](https://dl.acm.org/doi/10.1145/3576915.3623093).
 
 The code has the following directory structure:
 ```
@@ -387,4 +388,7 @@ S3 storage: `https://artifact-unforgeability.s3.us-east-1.amazonaws.com/`
 
 Each folder contains model checkpoints, files corresponding to the 25 checkpoints that contain the LSB, approximate forgery and floating-point divergence results. Each folder contains model checkpoints, files corresponding to the 25 checkpoints that contain the LSB, approximate forgery and floating-point divergence results.
 
+## Maintainers
+
+The code contributions are primarily done by Teodora ([teobaluta@gmail.com](mailto:teobaluta@gmail.com)), Racchit ([racchit.jain@gmail.com](mailto:racchit.jain@gmail.com)) and Ivica ([inikolic@nus.edu.sg](mailto:inikolic@nus.edu.sg)). Please feel free to reach out, and please cite our work if you are using our code or ideas.
 
